@@ -83,8 +83,9 @@ a:hover {
 }
 
 .skill {
-  width: 20%;
+  width: relative;
   margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 ul {
@@ -93,9 +94,10 @@ ul {
 }
 
 ul li {
-  background: #010101;
+  background: var(--accent-color);
   margin: 5px 0;
   padding: 10px;
+  border-radius: 4px;
 }
 
 h1,
@@ -106,6 +108,7 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+
 }
 
 /* PHP Email Form Messages
@@ -1311,6 +1314,7 @@ section,
   margin: 0;
   font-size: 20px;
   font-weight: 600;
+  background-color: #27a776;
 }
 
 .pricing .pricing-item h4 {

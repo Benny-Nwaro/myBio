@@ -83,14 +83,14 @@ a:hover {
 }
 
 .skill {
-  width: relative;
+  width: 300px;
   margin-bottom: 30px;
-  margin-left: 30px;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 ul li {

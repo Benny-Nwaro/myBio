@@ -69,10 +69,9 @@
 
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
+    <section style="margin-top: 5px;" id="hero" class="hero section">
       <div >
-        <div class="row justify-content-center">
+        <div style="margin-top: 5px;" class="row justify-content-center">
           <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
             <h2><span>I'm </span><span class="underlight">AROH Ebenezer</span></br><span>  A Fullstack Web developer</span></h2>
             <p>with a passion for creating dynamic and responsive web and mobile applications. Skilled in both front-end and back-end technologies with a 
@@ -84,11 +83,11 @@
 
     </section><!-- /Hero Section -->
       <div class="container">
-        <h2 style="display: flex; justify-content: center;">Skills</h2>
+        <h2 style="display: flex; justify-content: center; text-align: center;">Skills</h2>
 
         <div class="skill-set">          
             <div class="skill">
-                <h3 style="display: flex; justify-content: center;">Front-End</h3>
+                <h3 style="display: flex; justify-content: center; text-align: center;">Front-End</h3>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS</li>
@@ -99,7 +98,7 @@
                 </ul>
             </div>
             <div class="skill">
-                <h3 style="display: flex; justify-content: center;">Back-End</h3>
+                <h3 style="display: flex; justify-content: center; text-align: center;">Back-End</h3>
                 <ul>
                     <li>Node.js</li>
                     <li>Express.js</li>
@@ -109,7 +108,7 @@
                 </ul>
             </div>
             <div class="skill">
-                <h3 style="display: flex; justify-content: center;">Tools & Technologies</h3>
+                <h3 style="display: flex; justify-content: center; text-align: center;">Tools & Technologies</h3>
                 <ul>
                     <li>Git</li>
                     <li>Docker</li>
@@ -125,88 +124,108 @@
     <!-- Gallery Section -->
       
       
-        <h2 style="display: flex; justify-content: center;">React & NodeJs Projects</h2>
-        <P style="display: flex; justify-content: center;">These are sample deployments of some of my freelance projects</P>
-      
-
+        <h2 style="display: flex; justify-content: center; text-align: center;">React & NodeJs Projects</h2>
+        <P style="display: flex; justify-content: center; text-align: center;">These are sample deployments of some of my freelance projects </br>Click each image or the link below to view project in production</P>
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100 w-full">
-              <img src="assets/img/gallery/fashcraft.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/fashcraft.jpg" title="Project is built Reactjs for frontend and node express with PostgreSQL" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="https://fash-craft-uau2.vercel.app/" class="details-link"><i class="bi bi-link-45deg"></i></a>
+      <div class="container rounded">
+        <div id="myCarousel" class="carousel slide mb-6 " data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <a href="https://fash-craft-uau2.vercel.app/">
+              <img src="assets/img/gallery/fashcraft.jpg" height="500px" width="100%" class="rounded"></a>
+              <div class="container">
+                <div class="gallery-links d-flex align-items-center justify-content-center">
+                  <a href="assets/img/gallery/fashcraft.jpg" title="Project is built Reactjs for frontend and node express with PostgreSQL" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  <a href="https://fash-craft-uau2.vercel.app/" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100 w-full">
-              <img src="assets/img/gallery/flourish.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/flourish.jpg" title="A full frontend React application implementing Emailjs for contact and GoogleApi for video playlist with youtube" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href=" https://flourish-liard.vercel.app/" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="carousel-item active">
+              <a href=" https://flourish-liard.vercel.app/">
+              <img src="assets/img/gallery/flourish.jpg" height="500px" width="100%" class="rounded"></a>
+              <div class="container">
+                <div class="gallery-links d-flex align-items-center justify-content-center">
+                  <a href="assets/img/gallery/flourish.jpg" title="A full frontend React application implementing Emailjs for contact and GoogleApi for video playlist with youtube" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  <a href=" https://flourish-liard.vercel.app/" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/eshop.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/eshop.jpg" title="An Ecommerce application built with Reactjs and attendant libraries, node express with mongoDb for back-end" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="https://client-dot-eshop-439007.uc.r.appspot.com/" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <div class="carousel-item">
+              <a href="https://client-dot-eshop-439007.uc.r.appspot.com/" >
+              <img href="https://client-dot-eshop-439007.uc.r.appspot.com/" src="assets/img/gallery/eshop.jpg" height="500px" width="100%" class="rounded"></a>
+              <div class="container">
+                <div class="gallery-links d-flex align-items-center justify-content-center">
+                  <a href="assets/img/gallery/eshop.jpg" title="An Ecommerce application built with Reactjs and attendant libraries, node express with mongoDb for back-end" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                  <a href="https://client-dot-eshop-439007.uc.r.appspot.com/" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
-
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
 
         <!-- Gallery Section -->
         
-        <section id="gallery" class="gallery section">
           
-          <h2 style="display: flex; justify-content: center;">Sample ICP blockchain Projects</h2>
-        <P style="display: flex; justify-content: center;">These projects were developed locally using dfx but are not yet dployed to ICP blockchain for want of tokens</P>
-      
+          <h2 style="display: flex; justify-content: center; text-align: center; margin-top: 20px;">Sample ICP blockchain Projects</h2>
+        <P style="display: flex; justify-content: center; text-align: center;">These projects were developed locally using dfx but are not yet dployed to ICP blockchain for want of tokens</P>
+    
 
-          <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-    
-            <div class="row gy-4 justify-content-center">
-    
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="gallery-item h-100">
-                  <img src="assets/img/gallery/openD.jpeg" class="img-fluid" alt="">
+        <div class="container rounded">
+          <div id="myCarousel" class="carousel slide mb-6 " data-bs-ride="carousel">
+      
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="assets/img/gallery/openD.jpeg" height="500px" width="100%" class="rounded">
+                <div class="container">
                   <div class="gallery-links d-flex align-items-center justify-content-center">
-                    <a href="assets/img/gallery/openD.jpeg" title="An immitation of the popular openSea for NFT sales" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                    <a href="" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    <a href="assets/img/gallery/openD.jpeg" title="Project is built Reactjs for frontend and node express with PostgreSQL" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                    <a href="#" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-              </div><!-- End Gallery Item -->
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="gallery-item h-100">
-                  <img src="assets/img/gallery/nwaroToken.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="carousel-item active">
+                <img src="assets/img/gallery/nwaroToken.jpeg" height="500px" width="100%" class="rounded">
+                <div class="container">
                   <div class="gallery-links d-flex align-items-center justify-content-center">
-                    <a href="assets/img/gallery/nwaroToken.jpeg" title="A web app from claiming, using and transfer of tokens(Nwaro token)" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                    <a href="" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    <a href="assets/img/gallery/nwaroToken.jpeg" title="A full frontend React application implementing Emailjs for contact and GoogleApi for video playlist with youtube" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                    <a href="#" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-              </div><!-- End Gallery Item -->
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="gallery-item h-100">
-                  <img src="assets/img/gallery/secrets.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="carousel-item">
+                <img href="assets/img/gallery/secrets.jpeg" src="assets/img/gallery/secrets.jpeg" height="500px" width="100%" class="rounded">
+                <div class="container">
                   <div class="gallery-links d-flex align-items-center justify-content-center">
                     <a href="assets/img/gallery/secrets.jpeg" title="A secrets web app implementing the internet Identity for user verification and authentication" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                    <a href="" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    <a href="#" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
-              </div><!-- End Gallery Item -->
-        
-    
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-    
-        </section><!-- /Gallery Section -->
+        </div>
         
 
 
